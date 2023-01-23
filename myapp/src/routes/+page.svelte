@@ -1,5 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
+	import ToDo from './ToDo.svelte';
+
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -18,14 +20,14 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		Magnus is learning Svelte to create a course.
 	</h1>
 
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
-
 	<Counter />
+	<ToDo />
 </section>
 
 <style>
